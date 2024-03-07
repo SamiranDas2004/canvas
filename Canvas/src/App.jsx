@@ -39,7 +39,7 @@ useEffect(()=>{
   const context=canvas.getContext('2d');
   // context.lineCap='rounded';
   context.strokeStyle='red'
-  context.lineWidth=9;
+  context.lineWidth=19;
   contextReference.current=context;
 
 },[])
